@@ -1,20 +1,62 @@
-# Customer Segmentation using Machine Learning
+# 📊 Customer Segmentation using Machine Learning
 
-This project analyzes customer data and groups customers based on their behavior using machine learning techniques.
+This project performs customer segmentation using data analysis and machine learning techniques like PCA and K-Means clustering.
 
-## Features
-- Data Cleaning and Preprocessing
-- Handling Missing Values
-- Outlier Detection using Isolation Forest
-- Feature Engineering
-- PCA (Dimensionality Reduction)
-- Customer Clustering using KMeans
+---
 
-## Technologies Used
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib, Seaborn, Plotly
+## ✨ Features
 
-## Outcome
-Customers are divided into different clusters based on purchasing behavior which helps in business decision making.
+* 📉 Data Cleaning & Preprocessing
+* 📊 Feature Engineering
+* 📉 Dimensionality Reduction using PCA
+* 🤖 Customer Segmentation using K-Means
+* 📈 Data Visualization
+
+---
+
+## 🛠️ Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+
+---
+
+## ▶️ How to Run
+
+1. Install libraries:
+
+```bash
+python -m pip install pandas numpy matplotlib scikit-learn
+```
+
+2. Run the script:
+
+```bash
+python analysis.py
+```
+
+---
+
+## 📁 Project Structure
+
+```
+customer-segmentation/
+│── analysis.py
+│── dataset.csv
+│── README.md
+```
+
+---
+
+## 🚀 Future Improvements
+
+* Add interactive dashboard
+* Improve clustering accuracy
+* Deploy using Streamlit
+
+---
+
+⭐ This project demonstrates machine learning, clustering, and data analysis skills.
